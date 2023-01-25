@@ -59,7 +59,7 @@ header {
 .bannerindex {
   background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(../img/27.jpg);
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   background-size: cover;
   background-position: center; }
   .bannerindex .textbanner1 {
@@ -70,8 +70,8 @@ header {
 
 .bg-beneficios {
   width: 100vw;
-  height: 23vh;
-  background: linear-gradient(rgba(176, 176, 176, 0.271), rgba(221, 208, 208, 0.276)), url(/img/lotus.jpg);
+  height: 40vh;
+  background: linear-gradient(rgba(176, 176, 176, 0.45), rgba(194, 193, 193, 0.407)), url(/img/lotus.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ header {
 
 .bannerabtme {
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(/img/100.jpg);
   background-size: cover;
   background-position: center; }
@@ -132,9 +132,9 @@ header {
 .bannermindf {
   background-image: url(../img/340.jpg);
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat; }
   .bannermindf .textbanner1 {
     color: white;
@@ -145,7 +145,7 @@ header {
 .bannerclases {
   background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(../img/261.jpg);
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   background-size: cover;
   background-position: bottom; }
   .bannerclases .textbanner1 {
