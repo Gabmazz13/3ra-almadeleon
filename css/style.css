@@ -3,7 +3,7 @@
   padding: 0;
   transition: 0,5s;
   box-sizing: border-box;
-  font-family: 'Segoe UI'; }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
   * ul, * ol {
     list-style: none; }
   * a {
@@ -57,31 +57,48 @@ header {
     width: 100px; }
 
 .bannerindex {
-  background-image: url(../img/27.jpg);
+  background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(../img/27.jpg);
   width: 100vw;
-  height: 75vh;
+  height: 50vh;
   background-size: cover;
   background-position: center; }
   .bannerindex .textbanner1 {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
     font-family: Garamond, serif; }
 
-.benef-circle {
-  filter: drop-shadow(0 0 0.3rem rgba(77, 64, 81, 0.893));
-  opacity: 0.9; }
+.bg-beneficios {
+  width: 100vw;
+  height: 23vh;
+  background: linear-gradient(rgba(176, 176, 176, 0.271), rgba(221, 208, 208, 0.276)), url(/img/lotus.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .bg-beneficios .benef-circle {
+    filter: drop-shadow(0 0 0.3rem rgba(77, 64, 81, 0.893));
+    opacity: 0.9; }
+    .bg-beneficios .benef-circle:hover {
+      opacity: 15; }
+  .bg-beneficios .benef-text {
+    font-size: 3rem;
+    padding-top: 20px;
+    font-family: Garamond, serif; }
+  .bg-beneficios span {
+    font-size: 1.5rem;
+    padding: 20px; }
 
 .img-circle {
-  border-radius: 100%;
+  border-radius: 50%;
   filter: drop-shadow(0 0 0.3rem rgba(77, 64, 81, 0.893));
   width: 200px;
   height: 200px; }
 
 .bannerabtme {
-  background-image: url(../img/100.jpg);
   width: 100vw;
-  height: 75vh;
+  height: 50vh;
+  background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(/img/100.jpg);
   background-size: cover;
   background-position: center; }
   .bannerabtme .textbanner1 {
@@ -115,9 +132,9 @@ header {
 .bannermindf {
   background-image: url(../img/340.jpg);
   width: 100vw;
-  height: 75vh;
+  height: 50vh;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat; }
   .bannermindf .textbanner1 {
     color: white;
@@ -126,9 +143,9 @@ header {
     font-family: Garamond, serif; }
 
 .bannerclases {
-  background-image: url(../img/261.jpg);
+  background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146)), url(../img/261.jpg);
   width: 100vw;
-  height: 75vh;
+  height: 50vh;
   background-size: cover;
   background-position: bottom; }
   .bannerclases .textbanner1 {
@@ -138,13 +155,13 @@ header {
     font-family: Garamond, serif; }
 
 .contact-section .contact-bg {
-  height: 40vh;
-  background: linear-gradient(rgba(176, 176, 176, 0.448), rgba(221, 208, 208, 0.426)), url(/img/lotus.jpg);
+  height: 30vh;
+  background: linear-gradient(rgba(176, 176, 176, 0.448), rgba(221, 208, 208, 0.426)), url(../img/lotus.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  color: black;
+  color: #3a3939;
   display: flex;
   flex-direction: column;
   justify-content: center;

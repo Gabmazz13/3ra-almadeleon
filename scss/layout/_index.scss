@@ -1,23 +1,44 @@
 .bannerindex {
-    background-image: url(../img/27.jpg);
+    background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146) ), url(../img/27.jpg);
     width: 100vw;
-    height: 75vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     .textbanner1 {
         color: white;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 600;
         font-family: Garamond, serif;
         }
     }
-    .benef-circle {
-        filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
-        opacity: 0.9;
-        }
-        
+
+    .bg-beneficios{
+        width: 100vw;
+        height: 23vh;
+        background: linear-gradient(rgba(176, 176, 176, 0.271), rgba(221, 208, 208, 0.276) ), url(/img/lotus.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .benef-circle {
+            filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
+            opacity: 0.9;
+            &:hover{
+                opacity: 15;
+            }
+            }
+            .benef-text {
+                font-size: 3rem;
+                padding-top: 20px;
+                font-family: Garamond, serif;
+            }
+            span {
+                font-size: 1.5rem;
+                padding: 20px;
+            }
+    }
         .img-circle {
-            border-radius: 100%;
+            border-radius: 50%;
             filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
             width: 200px;
             height: 200px;
