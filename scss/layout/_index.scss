@@ -1,8 +1,8 @@
 .bannerindex {
-    background: linear-gradient(rgba(176, 176, 176, 0.193), rgba(221, 208, 208, 0.146) ), url(../img/27.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.193), rgba(0, 0, 0, 0.146) ), url(../img/27.jpg);
     width: 100vw;
     height: 75vh;
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     .textbanner1 {
         color: white;
@@ -12,21 +12,43 @@
         }
     }
 
+    button {
+        background: transparent;
+        border: 2px solid rgba(209, 28, 209, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        color: rgba(209, 28, 209, 0.2);
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        padding: 10px 20px;
+        position: relative;
+        transition: 0.5s ease-in-out;
+        &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background:rgba(209, 28, 209, 0.2);
+        clip-path: circle(0% at 51% 51%);
+        transition: 0.5s ease-in-out;
+        }
+        &:hover {
+            color: rgb(46, 43, 43);
+        }
+        &:hover::before {
+            clip-path: circle(100% at 51% 51%);
+        }
+    }
+
     .bg-beneficios{
         width: 100vw;
-        height: 40vh;
         background: linear-gradient(rgba(176, 176, 176, 0.45), rgba(194, 193, 193, 0.407) ), url(/img/lotus.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        .benef-circle {
-            filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
-            opacity: 0.9;
-            &:hover{
-                opacity: 15;
-            }
-            }
             .benef-text {
                 font-size: 3rem;
                 padding-top: 20px;
@@ -44,5 +66,13 @@
             height: 200px;
         }
 
-
+        @media screen and (max-width: 986px) {
+            .bg-beneficios{
+                width: 100vw;
+                background: linear-gradient(rgba(176, 176, 176, 0.45), rgba(194, 193, 193, 0.407) ), url(/img/lotus.jpg);
+                background-position: right;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            } 
+}
 
