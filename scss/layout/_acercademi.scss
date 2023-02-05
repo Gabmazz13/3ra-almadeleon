@@ -11,11 +11,28 @@
         font-family: Garamond, serif;
         }
     }
-.abtme-banner {
-    background-color: #3b043515;
-    background-size: contain;
-    height: 400px;
-}
+    .abtme-banner {
+        background-color: #8d9eff38;
+        .banner-text {
+            h2 {
+                font-size: 3rem;
+                text-align: center;
+                font-weight: 600;
+                font-family: Garamond, serif;
+                color: #453C67;
+                padding-top: 20px;
+                
+            }
+            p {
+                text-align: center;
+                font-size: 1.0rem;
+                font-weight: 400;
+                padding: 10px;
+                color: #453C67;
+                margin: 0;
+            }
+        }
+    }
 
 .list-form {
     list-style-type: disc;

@@ -1,7 +1,6 @@
 .bannermindf {
     background-image: url(../img/340.jpg);
-    width: 100vw;
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,3 +12,21 @@
         }
     }
     
+    .abtme-banner {
+        background-color: #8d9eff38;
+        .banner-text {
+            h2 {
+                font-size: 3rem;
+                text-align: center;
+                font-weight: 600;
+                font-family: Garamond, serif;
+                color: #453C67;
+                padding-top: 20px;
+            }
+            p {
+                text-align: center;
+                font-size: 1.0rem;
+                font-weight: 400;
+            }
+        }
+    }
