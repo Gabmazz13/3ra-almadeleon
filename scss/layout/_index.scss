@@ -43,36 +43,88 @@
     }
 
     .bg-beneficios{
-        width: 100vw;
-        background: linear-gradient(rgba(176, 176, 176, 0.45), rgba(194, 193, 193, 0.407) ), url(/img/lotus.jpg);
+        width: 100%;
+        background: linear-gradient(rgba(240, 236, 236, 0.787),rgba(238, 228, 228, 0.545)), url(/img/lotus.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        margin: 0 !important; 
             .benef-text {
-                font-size: 3rem;
+                font-size: 2.5rem;
                 padding-top: 20px;
-                font-family: Garamond, serif;
+                font-family: 'Avenir', sans-serif;
+                font-weight: 600;
+                color: rgb(67, 66, 72);
+                text-transform: uppercase;
             }
             span {
                 font-size: 1.5rem;
                 padding: 20px;
             }
+            .card-1 {
+                font-family: 'Poppins', sans-serif;
+                width: 340px;
+                background: rgba(245, 239, 239, 0.421);
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.288);
+                display: flex;
+                flex-direction: column;
+                margin: 30px;
+                padding-top: 100px;
+                transition-duration: 0.4s;
+                transition-property: transform;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                .profile-image {
+                    img {
+                        z-index: 1;
+                        width: 200px;
+                        height: 200px;
+                        position: relative;
+                        margin-top: -75px;
+                        margin-bottom: 20px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 20%;
+                        border: 10px solid rgba(132, 78, 139, 0.251);
+                    }
+                }
+                .card-content {
+                    h3 {
+                        font-size: 25px;
+                        text-align: center;
+                        margin: 0;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    text-align: justify;
+                    padding: 10px 20px 5px 20px;
+                    text-align: center;
+                }
+            }
     }
-        .img-circle {
-            border-radius: 50%;
-            filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
-            width: 200px;
-            height: 200px;
-        }
+    
+
+
 
         @media screen and (max-width: 986px) {
             .bg-beneficios{
                 width: 100vw;
                 background: linear-gradient(rgba(176, 176, 176, 0.45), rgba(194, 193, 193, 0.407) ), url(/img/lotus.jpg);
+                background-size: cover;
                 background-position: right;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
             } 
+            .card-1 {
+                width: 300px;
+            }
 }
+
+
+
 
