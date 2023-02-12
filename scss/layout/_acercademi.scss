@@ -11,17 +11,18 @@
         font-family: Garamond, serif;
         }
     }
-    .abtme-banner {
+    .abtme-bannercarrousel {
         background-color: #8d9eff38;
         .banner-text {
+            width: 100%;
+            height: 100%;
+            padding: 50px;
             h2 {
                 font-size: 3rem;
                 text-align: center;
                 font-weight: 600;
                 font-family: Garamond, serif;
                 color: #453C67;
-                padding-top: 20px;
-                
             }
             p {
                 text-align: center;
@@ -29,7 +30,6 @@
                 font-weight: 400;
                 padding: 10px;
                 color: #453C67;
-                margin: 0;
             }
         }
     }
@@ -40,9 +40,9 @@
 }
 
 .motivacional-banner {
-    background-color: #cebcdd5e;
+    background-color: #8d9eff38;
     background-size: contain;
-    height: 100px;
+    height: 10vh;
     font-size: 16px;
     font-weight: 600;
 }
@@ -53,4 +53,7 @@
     font-weight: 600;
     font-family: Garamond, serif;
 }
-
+.card-alling{
+    width: 100% !important;
+    height: 100% !important;
+}
