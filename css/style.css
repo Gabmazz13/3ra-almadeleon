@@ -73,7 +73,9 @@ button {
     clip-path: circle(100% at 51% 51%); }
 
 .tarjetas-fondo {
-  background: #8d9eff38; }
+  background: #8d9eff38;
+  max-width: 100%;
+  max-height: 100%; }
   .tarjetas-fondo .texto-card {
     color: #453C67; }
     .tarjetas-fondo .texto-card h2 {
@@ -87,6 +89,11 @@ button {
       font-size: 1.0rem;
       font-weight: 400;
       padding-top: 30px; }
+  .tarjetas-fondo .img-tarjeta {
+    padding: 0; }
+    .tarjetas-fondo .img-tarjeta img {
+      width: 100%;
+      height: 100%; }
 
 header {
   background-color: rgba(201, 180, 219, 0.85); }
@@ -115,7 +122,8 @@ header {
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0 !important; }
+  margin: 0 !important;
+  padding: 25px; }
   .beneficios-yoga-bg h2 {
     text-align: center;
     padding-top: 20px;
@@ -129,7 +137,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin: 10px; }
     .beneficios-yoga-bg .beneficios-yoga .yoga-banner {
       display: flex;
       flex-direction: column;
@@ -137,8 +146,8 @@ header {
       justify-items: center;
       align-items: center;
       height: 100%;
-      width: 500px;
-      padding: 50px; }
+      width: 700px;
+      margin: 10px; }
       .beneficios-yoga-bg .beneficios-yoga .yoga-banner img {
         width: 150px;
         height: 150px; }
@@ -157,6 +166,7 @@ header {
         text-align: center; }
 
 .bg-beneficios {
+  background: linear-gradient(rgba(115, 159, 234, 0.25), rgba(115, 159, 234, 0.25)), url(/img/lotus.jpg);
   width: 100%;
   background-size: cover;
   background-position: right;
@@ -182,10 +192,10 @@ header {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.288);
     display: flex;
     flex-direction: column;
-    margin: 30px;
     padding-top: 100px;
     transition-duration: 0.4s;
-    transition-property: transform; }
+    transition-property: transform;
+    margin: 20px; }
     .bg-beneficios .card-1:hover {
       transform: scale(1.1); }
     .bg-beneficios .card-1 .profile-image img {
@@ -201,13 +211,13 @@ header {
       border-radius: 20%;
       border: 10px solid rgba(132, 78, 139, 0.251); }
     .bg-beneficios .card-1 .card-content h3 {
-      font-size: 25px;
+      font-size: 2rem;
       text-align: center;
       margin: 0;
       color: #453C67;
       font-weight: 500; }
     .bg-beneficios .card-1 p {
-      font-size: 16px;
+      font-size: 1rem;
       text-align: justify;
       padding: 10px 20px 5px 20px;
       text-align: center;

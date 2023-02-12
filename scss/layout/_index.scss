@@ -18,7 +18,8 @@
         background-position: right;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        margin: 0 !important;
+        margin:0 !important;
+        padding: 25px;
         h2 {
             text-align: center;
             padding-top: 20px;
@@ -34,6 +35,7 @@
             justify-content: space-around;
             width: 100%;
             height: 100%;
+            margin: 10px;
             .yoga-banner {
                 display: flex;
                 flex-direction: column;
@@ -41,8 +43,8 @@
                 justify-items:center;
                 align-items: center; 
                 height: 100%;
-                width: 500px;
-                padding: 50px;
+                width: 700px;
+                margin: 10px;
                 img {
                     width: 150px;
                     height: 150px;
@@ -67,6 +69,7 @@
         }
             
     .bg-beneficios{
+        background: linear-gradient(rgba(115, 159, 234, 0.250),rgba(115, 159, 234, 0.250)), url(/img/lotus.jpg);
         width: 100%;
         background-size: cover;
         background-position: right;
@@ -94,10 +97,10 @@
                 box-shadow: 0 0 20px rgba(0, 0, 0, 0.288);
                 display: flex;
                 flex-direction: column;
-                margin: 30px;
                 padding-top: 100px;
                 transition-duration: 0.4s;
                 transition-property: transform;
+                margin: 20px;
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -118,7 +121,7 @@
                 }
                 .card-content {
                     h3 {
-                        font-size: 25px;
+                        font-size: 2rem;
                         text-align: center;
                         margin: 0;
                         color: #453C67;
@@ -126,7 +129,7 @@
                     }
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 1rem;
                     text-align: justify;
                     padding: 10px 20px 5px 20px;
                     text-align: center;
@@ -135,7 +138,6 @@
             }
     }
     
-
 
 
         @media screen and (max-width: 986px) {
